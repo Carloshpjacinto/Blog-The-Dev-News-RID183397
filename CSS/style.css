@@ -17,6 +17,8 @@ body{
     margin: 0rem;
     padding: 0rem;
 
+    font-family: var(--font-defaut);
+
 }
 
 header{
@@ -29,7 +31,6 @@ header{
     #titleHeader{
 
         margin: 0;
-        font-family: var(--font-defaut);
         font-size: 3.6rem;
         font-weight: 700;
         color: var(--color-white);
@@ -48,6 +49,8 @@ header{
 
         display: inline-block;
         position: relative;
+        margin: 8rem 0rem 0rem 0rem;
+        cursor: pointer;
 
     }
 
@@ -62,10 +65,10 @@ header{
         #textBanner{
 
             position: absolute;
-            top: 300px;
-            left: 20px;
-            font-family: var(--font-defaut);
+            top: 30rem;
+            left: 2rem;
             color: var(--color-white);
+            text-shadow: 0 0 3rem black;
 
         }
 
@@ -73,10 +76,75 @@ header{
 
                 font-size: 1.6rem;
                 margin: 0;
+
             }
 
             #textBanner h3{
 
                 font-size: 3.2rem;
                 margin: .2rem 0rem .2rem 0rem;
+
+            }
+
+    .asideTop{
+
+        margin: 8rem 0rem 0rem 3rem;
+
+    }
+
+        .asideTop h2{
+
+            background-color: var(--color-main);
+            color: var(--color-white);
+            font-size: 2rem;
+            font-weight: 700;
+            border-radius: 1rem;
+            padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+            margin: 0rem 0rem 2rem 0rem;
+
+        }
+
+        .topicosAsideTop{
+
+            display: flex;
+            width: 45rem;
+            height: 9rem;
+            margin: 0rem 0rem 2.4rem 0rem;
+            background-color: var(--color-white);
+            box-shadow: .4rem 1.5rem 1rem rgba(0, 0, 0, 0.15);
+            border-radius: 1rem;
+            cursor: pointer;
+
+        }
+
+            .topicosAsideTop:last-child{
+
+                margin-bottom: 0;
+            }
+
+            .topicosAsideTop .imagensAside{
+
+                width: 13.2rem;
+                height: 7rem;
+                border-radius: 1rem;
+                margin: 1rem 0rem 1rem 1.5em;
+            
+            }
+
+            .topicosAsideTop h3{
+
+                font-size: 1.4rem;
+                font-weight: 700;
+                margin: 1rem 0rem 0rem 1rem;
+                color: #000000;
+
+            }
+
+            .topicosAsideTop p{
+
+                font-size: 1.2rem;
+                font-weight: 500;
+                margin: .5rem 0rem 0rem 1rem;
+                color: #616161;
+
             }
