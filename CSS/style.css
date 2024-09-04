@@ -1,0 +1,38 @@
+:root{
+
+    --color-main: #02A28F;
+    --color-white: #FFFFFF;
+    --font-defaut: "Montserrat", sans-serif;
+
+}
+
+html{
+
+    font-size: 10px;
+
+}
+
+body{
+
+    margin: 0rem;
+    padding: 0rem;
+
+}
+
+header{
+
+    background-color: var(--color-main);
+    margin: 0;
+
+}
+
+    #titleHeader{
+
+        margin: 0;
+        font-family: var(--font-defaut);
+        font-size: 3.6rem;
+        font-weight: 700;
+        color: var(--color-white);
+        padding: 1.6rem 15.6rem 1.6rem 15.6rem;
+
+    }
