@@ -36,3 +36,47 @@ header{
         padding: 1.6rem 15.6rem 1.6rem 15.6rem;
 
     }
+
+.container-banner-aside{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+    #banner{
+
+        display: inline-block;
+        position: relative;
+
+    }
+
+        #imagemAsideTop{
+
+            width: 74.4rem;
+            height: 39.6rem;
+            border-radius: 1rem;
+    
+        }
+
+        #textBanner{
+
+            position: absolute;
+            top: 300px;
+            left: 20px;
+            font-family: var(--font-defaut);
+            color: var(--color-white);
+
+        }
+
+            #textBanner p{
+
+                font-size: 1.6rem;
+                margin: 0;
+            }
+
+            #textBanner h3{
+
+                font-size: 3.2rem;
+                margin: .2rem 0rem .2rem 0rem;
+            }
