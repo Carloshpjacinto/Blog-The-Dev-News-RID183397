@@ -16,8 +16,8 @@ body{
 
     margin: 0rem;
     padding: 0rem;
-
     font-family: var(--font-defaut);
+    width: auto;
 
 }
 
@@ -41,12 +41,14 @@ header{
 main{
 
     margin: 1rem 32rem 0rem 32rem;
+    display: flex;
         
 }
 
 .container-main{
 
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -187,7 +189,7 @@ main{
 
     width: 45.3rem;
 
-    margin: 2.5rem 0rem 0rem .9rem;
+    margin: 2.5rem 0rem 0rem 3rem;
 
 }
 
@@ -233,5 +235,3 @@ footer{
         text-align: center;
 
     }
-
-    
