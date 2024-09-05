@@ -140,7 +140,7 @@ main{
                 width: 13.2rem;
                 height: 7rem;
                 border-radius: 1rem;
-                margin: 1rem 0rem 1rem 1.5em;
+                margin: 1rem 0rem 1rem 1.5rem;
             
             }
 
@@ -172,12 +172,14 @@ main{
 #sessaoCard{
 
     display: grid;
+    grid-template-columns: repeat(2, 1fr)
     
 }
 
     #sessaoCard img{
 
-        margin: 0rem 2rem 3rem -2rem;
+        margin: 0rem 0rem 0rem -2rem;
+        cursor: pointer;
         
     }
 
@@ -211,3 +213,25 @@ main{
             margin: 1rem 2rem 2rem 0rem;
 
         }
+    
+footer{
+
+    background-color: var(--color-main);
+    margin: 8rem 0rem 0rem 0rem;
+    height: 100%;
+
+}
+
+    footer p{
+
+        margin: 0rem;
+        padding: 2rem 0rem 2rem 0rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: var(--color-white);
+
+        text-align: center;
+
+    }
+
+    
