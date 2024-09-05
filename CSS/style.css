@@ -38,10 +38,15 @@ header{
 
     }
 
-.container-banner-aside{
+main{
+
+    margin: 1rem 32rem 0rem 32rem;
+        
+}
+
+.container-main{
 
     display: flex;
-    justify-content: center;
 
 }
 
@@ -92,7 +97,7 @@ header{
 
     }
 
-        .asideTop h2{
+        .titlePost{
 
             background-color: var(--color-main);
             color: var(--color-white);
@@ -100,8 +105,16 @@ header{
             font-weight: 700;
             border-radius: 1rem;
             padding: 1.6rem 2.4rem 1.6rem 2.4rem;
-            margin: 0rem 0rem 2rem 0rem;
+            margin: 0rem 0rem 1.5rem 0rem;
 
+        }
+
+        .titlePost a {
+
+            margin: 0rem 0rem 0rem 41rem;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--color-white);
         }
 
         .topicosAsideTop{
@@ -148,3 +161,53 @@ header{
                 color: #616161;
 
             }
+        
+#titlePostRecentes{
+
+    margin: 2.5rem 2rem 0rem 0rem;
+    width: 74.4rem;
+
+}
+
+#sessaoCard{
+
+    display: grid;
+    
+}
+
+    #sessaoCard img{
+
+        margin: 0rem 2rem 3rem -2rem;
+        
+    }
+
+#sessaoLinksNav{
+
+    width: 45.3rem;
+
+    margin: 2.5rem 0rem 0rem .9rem;
+
+}
+
+    #listaLink{
+
+        list-style: none;
+        padding: 0;
+        width: 36.1rem;
+
+    }
+
+        #listaLink a{
+
+            text-decoration: none;
+
+        }
+
+        .textListLink{
+
+            font-size: 1.6rem;
+            color: #616161;
+            font-weight: 600;
+            margin: 1rem 2rem 2rem 0rem;
+
+        }

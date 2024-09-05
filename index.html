@@ -16,61 +16,100 @@
         <h1 id="titleHeader">The Dev News</h1>
     </header>
 
-    <!--Sessão banner e aside-->
-    <section class="container-banner-aside">
+    <!--Sessão principal do blog-->
+    <main>
 
-        <!--Sessão banner-->
-        <div id="banner">
-            
-            <img id="imagemAsideTop" src="imagens/imagemPredio.jpg" alt="">
+        <!--Sessão banner e aside-->
+        <section class="container-main">
 
-            <div id="textBanner">
-                <p>opinião</p>
-                <h3>Como é ser um desenvolvedor</h3>
-                <p><b>By</b> Fabio Tetsuo</p>
+            <!--Sessão banner-->
+            <div id="banner">
+                
+                <img id="imagemAsideTop" src="imagens/imagemPredio.jpg" alt="">
+    
+                <div id="textBanner">
+                    <p>opinião</p>
+                    <h3>Como é ser um desenvolvedor</h3>
+                    <p><b>By</b> Fabio Tetsuo</p>
+                </div>
             </div>
-        </div>
-
-        <!--Sessão aside-->
-        <aside class="asideTop">
-
-                <h2>Posts populares</h2>
-
-            <div>
-                <div class="topicosAsideTop">
-                    <div>
-                        <img class="imagensAside" src="imagens/primeiraImagemAside.jpg" alt="">
+    
+            <!--Sessão aside-->
+            <aside class="asideTop">
+    
+                    <h2 class="titlePost">Posts populares</h2>
+    
+                <div>
+                    <div class="topicosAsideTop">
+                        <div>
+                            <img class="imagensAside" src="imagens/primeiraImagemAside.jpg" alt="">
+                        </div>
+        
+                        <div>
+                            <h3>Desevolvimento atual</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
                     </div>
     
-                    <div>
-                        <h3>Desevolvimento atual</h3>
-                        <p>22 Agosto 2022</p>
+                    <div class="topicosAsideTop">
+                        <div>
+                            <img class="imagensAside" src="imagens/SegundaImagemAside.jpg" alt="">
+                        </div>
+    
+                        <div>
+                            <h3>GitLab vs GitHub</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
+                    </div>
+    
+                    <div class="topicosAsideTop">
+                        <div>
+                            <img class="imagensAside" src="imagens/terceiraImagemAside.jpg" alt="">
+                        </div>
+    
+                        <div>
+                            <h3>Café atrapalha?</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
                     </div>
                 </div>
+            </aside>
+        </section>
+    
+        <!--Sessão card e Nav-->
+        <section class="container-main">
 
-                <div class="topicosAsideTop">
-                    <div>
-                        <img class="imagensAside" src="imagens/SegundaImagemAside.jpg" alt="">
-                    </div>
-
-                    <div>
-                        <h3>GitLab vs GitHub</h3>
-                        <p>22 Agosto 2022</p>
-                    </div>
+            <!--Sessão Card-->
+            <div>
+                <div id="titlePostRecentes">
+                    <h2 class="titlePost">Posts mais recentes <a href="http://">ver todos</a></h2>
                 </div>
 
-                <div class="topicosAsideTop">
-                    <div>
-                        <img class="imagensAside" src="imagens/terceiraImagemAside.jpg" alt="">
-                    </div>
-
-                    <div>
-                        <h3>Café atrapalha?</h3>
-                        <p>22 Agosto 2022</p>
-                    </div>
+                <div id="sessaoCard">
+                    <img src="imagens/primeiroCard.svg" alt="">
                 </div>
+
             </div>
-        </aside>
-    </section>
+
+            <!--Sessão nav-->
+            <nav id="sessaoLinksNav">
+                <div>
+                    <h2 class="titlePost">Categorias</h2>
+                </div>
+
+                <div>
+                    <ul id="listaLink">
+                        <a href="http://"><li class="textListLink">> saude</li></a>
+
+                        <a href="http://"><li class="textListLink">> desenvolvimento</li></a>
+
+                        <a href="http://"><li class="textListLink">> produtividade</li></a>
+
+                        <a href="http://"><li class="textListLink">> opiniao</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </main>
 </body>
 </html>
