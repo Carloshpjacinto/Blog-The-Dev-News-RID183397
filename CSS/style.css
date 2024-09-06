@@ -1,3 +1,4 @@
+/*Variaveis*/
 :root{
 
     --color-main: #02A28F;
@@ -21,6 +22,7 @@ body{
 
 }
 
+/*Sessão Header*/
 header{
 
     background-color: var(--color-main);
@@ -38,6 +40,7 @@ header{
 
     }
 
+/*Sessão principal do blog*/
 main{
 
     margin: 1rem 32rem 0rem 32rem;
@@ -51,7 +54,7 @@ main{
     flex-direction: column;
 
 }
-
+    /*Sessão Banner*/
     #banner{
 
         display: inline-block;
@@ -75,7 +78,7 @@ main{
             top: 30rem;
             left: 2rem;
             color: var(--color-white);
-            text-shadow: 0 0 3rem black;
+            text-shadow: 0 0 4rem black;
 
         }
 
@@ -83,6 +86,7 @@ main{
 
                 font-size: 1.6rem;
                 margin: 0;
+                font-weight: 400;
 
             }
 
@@ -93,13 +97,36 @@ main{
 
             }
 
+    /*Titulo dos cards e dos links dos navs*/
     #titlePostRecentes{
 
         margin: 2.5rem 2rem 0rem 0rem;
         width: 74.4rem;
-            
+                    
     }
-        
+        /*Classe reltilizada nos titulos da pagina (Post mais recentes, Post populares e Categorias )*/   
+        .titlePost{
+
+            background-color: var(--color-main);
+            color: var(--color-white);
+            font-size: 2rem;
+            font-weight: 700;
+            border-radius: 1rem;
+            padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+            margin: 0rem 0rem 1.5rem 0rem;
+    
+        }
+
+            /*Manipulação do link que fica do lado do titulo Post mais recentes*/
+            .titlePost a {
+
+                margin: 0rem 0rem 0rem 41rem;
+                font-size: 1.4rem;
+                font-weight: 500;
+                color: var(--color-white);
+            }
+    
+    /*Sessão card*/
     #sessaoCard{
 
         display: grid;
@@ -113,32 +140,13 @@ main{
             cursor: pointer;
                     
         }
-            
+    
+    /*Inicio dos topicos da sessão Nav da pagina*/
     .navTop{
 
         margin: 8rem 0rem 0rem 3rem;
 
     }
-
-        .titlePost{
-
-            background-color: var(--color-main);
-            color: var(--color-white);
-            font-size: 2rem;
-            font-weight: 700;
-            border-radius: 1rem;
-            padding: 1.6rem 2.4rem 1.6rem 2.4rem;
-            margin: 0rem 0rem 1.5rem 0rem;
-
-        }
-
-        .titlePost a {
-
-            margin: 0rem 0rem 0rem 41rem;
-            font-size: 1.4rem;
-            font-weight: 500;
-            color: var(--color-white);
-        }
 
         .topicosNavTop{
 
@@ -185,6 +193,7 @@ main{
 
             }
     
+    /*Sessão dos links da página*/
     #sessaoLinksNav{
             
         width: 45.3rem;
@@ -216,6 +225,7 @@ main{
 
             }
     
+/*Sessão rodapé da página*/
 footer{
 
     background-color: var(--color-main);
@@ -238,12 +248,154 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
-    
-    #titleHeader{
 
-        font-size: 2.4rem;
-        padding: 1.6rem 0rem 1.6rem 0rem;
-        text-align: center;
+        /*Sessão Header*/
+        #titleHeader{
+
+            font-size: 2.4rem;
+            padding: 1.6rem 0rem 1.6rem 0rem;
+            text-align: center;
+
+        }
+
+    /*Sessão principal do blog*/
+    main{
+
+        margin: 0rem 1rem 0rem 1rem;
+        display: flex;
+        flex-direction: column;
 
     }
+
+    .container-main{
+
+        display: flex;
+
+    }
+
+        /*Sessão Banner*/
+        #banner{
+
+            margin: 2rem 0rem 0rem 0rem;
+
+        }
+
+            #imagemBanner{
+
+                width: 100%;
+                border-radius: 1rem;
+    
+            }
+
+            #textBanner{
+
+                top: 28rem;
+                left: 2rem;
+    
+            }
+
+                #textBanner h3{
+
+                    font-size: 2.4rem;
+
+                }
+
+        /*Titulo dos cards e dos links dos navs*/
+        #titlePostRecentes{
+
+            margin: 2em 0rem 0rem 0rem;
+            width: 100%;
+
+        }
+
+            /*Classe reltilizada nos titulos da pagina (Post mais recentes, Post populares e Categorias )*/
+            .titlePost{
+
+                font-size: 1.9rem;
+                font-weight: 700;
+                border-radius: 1rem;
+                padding: 1rem 1rem 1rem 1rem;
+                margin: 0rem 0rem 1.5rem 0rem;
+    
+            }
+
+                /*Manipulação do link que fica do lado do titulo Post mais recentes*/
+                .titlePost a {
+
+                    margin: 0rem 0rem 0rem 1.9rem;
+                    font-size: 1.2rem;
+
+                }
+        
+        /*Sessão card*/
+        #sessaoCard{
+
+            display: grid;
+            grid-template-columns: repeat(1, 1fr)
+                            
+        }
+
+            #sessaoCard img{
+
+                width: 100%;
+                margin: 0rem .6rem 0rem -.10rem;
+                    
+            }
+
+        /*Classe criada para colocar os titulo de Post populares e Categorias no centro*/
+        .titleCenter{
+
+            text-align: center;
+    
+        }
+
+        /*Inicio dos topicos da sessão Nav da pagina*/
+        .navTop{
+
+            margin: 0rem 0rem 0rem 0rem;
+        
+        }
+
+            .topicosNavTop{
+
+                width: 100%;
+                margin: 0rem 0rem 2.4rem 0rem;
+
+            }
+
+                .topicosNavTop .imagensNav{
+
+                    margin: 1rem 0rem 1rem 1rem;
+            
+                }
+
+                .topicosNavTop h3{
+
+                    font-size: 1.2rem;
+                    margin: 1rem 0rem 0rem 1rem;
+
+                }
+
+                .topicosNavTop p{
+
+                    font-size: 1.1rem;
+    
+                }
+        
+        /*Sessão dos links da página*/
+        #sessaoLinksNav{
+            
+            width: 100%;
+                        
+            margin: 2rem 0rem 0rem 0rem;
+                        
+        }
+
+    /*Sessão rodapé da página*/
+    footer{
+
+        margin: 2rem 0rem 0rem 0rem;
+
+    }
+
 }
