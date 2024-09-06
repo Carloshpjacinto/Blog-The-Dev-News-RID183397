@@ -96,6 +96,15 @@ main{
                 margin: .2rem 0rem .2rem 0rem;
 
             }
+    
+    /*Classe criada para manipular a posição do titulo "Posts mais recentes" e do "link Ver todos" */
+    .titleAndLink{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
 
     /*Titulo dos cards e dos links dos navs*/
     #titlePostRecentes{
@@ -120,10 +129,10 @@ main{
             /*Manipulação do link que fica do lado do titulo Post mais recentes*/
             .titlePost a {
 
-                margin: 0rem 0rem 0rem 41rem;
                 font-size: 1.4rem;
                 font-weight: 500;
                 color: var(--color-white);
+
             }
     
     /*Sessão card*/
@@ -247,7 +256,7 @@ footer{
     }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px){
 
         /*Sessão Header*/
         #titleHeader{
@@ -322,7 +331,6 @@ footer{
                 /*Manipulação do link que fica do lado do titulo Post mais recentes*/
                 .titlePost a {
 
-                    margin: 0rem 0rem 0rem 1.9rem;
                     font-size: 1.2rem;
 
                 }
