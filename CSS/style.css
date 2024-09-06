@@ -235,3 +235,15 @@ footer{
         text-align: center;
 
     }
+
+
+@media only screen and (max-width: 768px) {
+    
+    #titleHeader{
+
+        font-size: 2.4rem;
+        padding: 1.6rem 0rem 1.6rem 0rem;
+        text-align: center;
+
+    }
+}
