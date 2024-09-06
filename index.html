@@ -19,13 +19,13 @@
     <!--Sessão principal do blog-->
     <main>
 
-        <!--Sessão banner e aside-->
+        <!--Sessão banner e Card-->
         <section class="container-main">
 
             <!--Sessão banner-->
             <div id="banner">
                 
-                <img id="imagemAsideTop" src="imagens/imagemPredio.jpg" alt="">
+                <img id="imagemBanner" src="imagens/imagemPredio.jpg" alt="">
     
                 <div id="textBanner">
                     <p>opinião</p>
@@ -34,9 +34,10 @@
                 </div>
             </div>
 
+            <!--Sessão Card-->
             <div class="cards">
                 <div id="titlePostRecentes">
-                    <h2 class="titlePost">Posts mais recentes <a href="http://">ver todos</a></h2>
+                    <h2 class="titlePost">Posts mais recentes <a href="">ver todos</a></h2>
                 </div>
 
                 <div id="sessaoCard">
@@ -49,77 +50,74 @@
                     <img src="imagens/quantoCard.svg" alt="">
                 </div>
             </div>
-    
-            <!--Sessão aside-->
-            
         </section>
     
-        <!--Sessão card e Nav-->
-        <section class="container-main">
-            <aside class="asideTop">
+        <!--Sessão Nav-->
+        <nav class="container-main">
+
+            <section class="navTop">
     
                 <h2 class="titlePost">Posts populares</h2>
 
-            <div>
-                <div class="topicosAsideTop">
-                    <div>
-                        <img class="imagensAside" src="imagens/primeiraImagemAside.jpg" alt="">
-                    </div>
+                <div>
+                    <div class="topicosNavTop">
+                        <div>
+                            <img class="imagensNav" src="imagens/primeiraImagemAside.jpg" alt="">
+                        </div>
     
-                    <div>
-                        <h3>Desevolvimento atual</h3>
-                        <p>22 Agosto 2022</p>
+                        <div>
+                            <h3>Desevolvimento atual</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="topicosNavTop">
+                        <div>
+                            <img class="imagensNav" src="imagens/SegundaImagemAside.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <h3>GitLab vs GitHub</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="topicosNavTop">
+                        <div>
+                            <img class="imagensNav" src="imagens/terceiraImagemAside.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <h3>Café atrapalha?</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="topicosAsideTop">
-                    <div>
-                        <img class="imagensAside" src="imagens/SegundaImagemAside.jpg" alt="">
-                    </div>
+            <section id="sessaoLinksNav">
 
-                    <div>
-                        <h3>GitLab vs GitHub</h3>
-                        <p>22 Agosto 2022</p>
-                    </div>
+                <!--Titulo da lista de links-->
+                <div>
+                    <h2 class="titlePost">Categorias</h2>
                 </div>
 
-                <div class="topicosAsideTop">
-                    <div>
-                        <img class="imagensAside" src="imagens/terceiraImagemAside.jpg" alt="">
-                    </div>
+                <!--Lista de links-->
+                <div>
+                    <ul id="listaLink">
+                        <a href="http://"><li class="textListLink">> saude</li></a>
 
-                    <div>
-                        <h3>Café atrapalha?</h3>
-                        <p>22 Agosto 2022</p>
-                    </div>
+                        <a href="http://"><li class="textListLink">> desenvolvimento</li></a>
+
+                        <a href="http://"><li class="textListLink">> produtividade</li></a>
+
+                        <a href="http://"><li class="textListLink">> opiniao</li></a>
+                    </ul>
                 </div>
-            </div>
-        </aside>
-
-        <nav id="sessaoLinksNav">
-
-            <!--Titulo da lista de links-->
-            <div>
-                <h2 class="titlePost">Categorias</h2>
-            </div>
-
-            <!--Lista de links-->
-            <div>
-                <ul id="listaLink">
-                    <a href="http://"><li class="textListLink">> saude</li></a>
-
-                    <a href="http://"><li class="textListLink">> desenvolvimento</li></a>
-
-                    <a href="http://"><li class="textListLink">> produtividade</li></a>
-
-                    <a href="http://"><li class="textListLink">> opiniao</li></a>
-                </ul>
-            </div>
+            </section>
         </nav>
-        </section>
     </main>
 
-    <!--Sessão rodapé do blog-->
     <footer>
         <p>Copyright@The Dev News</p>
     </footer>

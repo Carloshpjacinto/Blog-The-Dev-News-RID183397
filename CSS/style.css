@@ -61,7 +61,7 @@ main{
 
     }
 
-        #imagemAsideTop{
+        #imagemBanner{
 
             width: 74.4rem;
             height: 39.6rem;
@@ -93,7 +93,28 @@ main{
 
             }
 
-    .asideTop{
+    #titlePostRecentes{
+
+        margin: 2.5rem 2rem 0rem 0rem;
+        width: 74.4rem;
+            
+    }
+        
+    #sessaoCard{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+                
+    }
+            
+        #sessaoCard img{
+            
+            margin: 0rem 0rem 0rem -2rem;
+            cursor: pointer;
+                    
+        }
+            
+    .navTop{
 
         margin: 8rem 0rem 0rem 3rem;
 
@@ -119,7 +140,7 @@ main{
             color: var(--color-white);
         }
 
-        .topicosAsideTop{
+        .topicosNavTop{
 
             display: flex;
             width: 45rem;
@@ -132,12 +153,12 @@ main{
 
         }
 
-            .topicosAsideTop:last-child{
+            .topicosNavTop:last-child{
 
                 margin-bottom: 0;
             }
 
-            .topicosAsideTop .imagensAside{
+            .topicosNavTop .imagensNav{
 
                 width: 13.2rem;
                 height: 7rem;
@@ -146,7 +167,7 @@ main{
             
             }
 
-            .topicosAsideTop h3{
+            .topicosNavTop h3{
 
                 font-size: 1.4rem;
                 font-weight: 700;
@@ -155,7 +176,7 @@ main{
 
             }
 
-            .topicosAsideTop p{
+            .topicosNavTop p{
 
                 font-size: 1.2rem;
                 font-weight: 500;
@@ -163,58 +184,37 @@ main{
                 color: #616161;
 
             }
-        
-#titlePostRecentes{
-
-    margin: 2.5rem 2rem 0rem 0rem;
-    width: 74.4rem;
-
-}
-
-#sessaoCard{
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)
     
-}
-
-    #sessaoCard img{
-
-        margin: 0rem 0rem 0rem -2rem;
-        cursor: pointer;
-        
+    #sessaoLinksNav{
+            
+        width: 45.3rem;
+            
+        margin: 2.5rem 0rem 0rem 3rem;
+            
     }
 
-#sessaoLinksNav{
+        #listaLink{
 
-    width: 45.3rem;
-
-    margin: 2.5rem 0rem 0rem 3rem;
-
-}
-
-    #listaLink{
-
-        list-style: none;
-        padding: 0;
-        width: 36.1rem;
-
-    }
-
-        #listaLink a{
-
-            text-decoration: none;
+            list-style: none;
+            padding: 0;
+            width: 36.1rem;
 
         }
 
-        .textListLink{
+            #listaLink a{
 
-            font-size: 1.6rem;
-            color: #616161;
-            font-weight: 600;
-            margin: 1rem 2rem 2rem 0rem;
+                text-decoration: none;
 
-        }
+            }
+
+            .textListLink{
+
+                font-size: 1.6rem;
+                color: #616161;
+                font-weight: 600;
+                margin: 1rem 2rem 2rem 0rem;
+
+            }
     
 footer{
 
