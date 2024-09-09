@@ -2,4 +2,4 @@
 
 ### Segundo desafio da Formação/Especialização Arquiteto de Software da Escola DNC.
 
-### LINK do site disponibilizado: https://thenewsdev.netlify.app
+#### LINK do site disponibilizado: https://thenewsdev.netlify.app
